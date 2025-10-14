@@ -21,13 +21,18 @@
 
     <title>EcoTote</title>
     <script type="module" crossorigin src="/ecotote-proj/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/ecotote-proj/assets/index-Cnt_YoqM.css">
+    <link rel="stylesheet" crossorigin href="/ecotote-proj/assets/index-B6myVRMc.css">
   </head>
   <body>
+    <div id="top"></div>
     <!-- HEADER -->
 <header class="header" id="header" aria-label="Основна шапка сайту">
   <div class="container header__container">
-    <a class="logo" href="/" aria-label="Перехід на головну сторінку">
+    <a
+      class="logo"
+      href="./index.html"
+      aria-label="Перехід на головну сторінку"
+    >
       <img class="logo__img" src="/ecotote-proj/assets/logo-Coq1yIRJ.svg" alt="Логотип EcoTote" />
     </a>
 
@@ -62,8 +67,8 @@
           >
         </li>
         <li class="contacts-item">
-          <a class="header__email" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+          <a class="header__email" href="mailto:hello@ecotote.com"
+            >hello@ecotote.com</a
           >
         </li>
       </ul>
@@ -108,8 +113,8 @@
           >
         </li>
         <li>
-          <a class="mobile-contacts__link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+          <a class="mobile-contacts__link" href="mailto:hello@ecotote.com"
+            >hello@ecotote.com</a
           >
         </li>
       </ul>
@@ -119,7 +124,7 @@
 
 
     <main>
-      <section class="hero">
+      <section class="hero" id="hero">
   <div class="container hero-container">
     <div class="hero-content">
       <h1 class="hero-title">
@@ -494,7 +499,7 @@
   </div>
 </section>
 
-      <section class="gallery">
+      <section class="gallery" id="gallery">
   <div class="container">
     <h2 class="comfortaa gallery-title">Галерея зображень</h2>
     <p class="gallery-article">EcoTotes у повсякденному житті</p>
@@ -587,7 +592,7 @@
   </div>
 </section>
 
-      <section class="feedbacks">
+      <section class="feedbacks" id="feedbacks">
   <div class="container">
     <h2 class="feedbacks__title" id="feedbacks-title">
       Що говорять наші клієнти
@@ -741,54 +746,96 @@
 
     </main>
 
-    <footer class="footer" aria-label="Підвал сайту">
-    <div class="container footer-container">
-         <div class="footer-top">
-                <a class="footer-logo" href="/index.html" aria-label="Посилання на головну сторінку сайту">
-                <img class="footer-logo-img" src="/ecotote-proj/assets/logo-footer-Dhl62575.svg" alt="Логотип EcoTote">
-            </a>
-            <nav aria-label="Навігація по сайту">
-                <ul class="footer-nav">
-                    <li class="footer-item"><a class="footer-link" href="#about">Про нас</a></li>
-                    <li class="footer-item"><a class="footer-link" href="#advantages">Переваги</a></li>
-                    <li class="footer-item"><a class="footer-link" href="#assortment">Асортимент</a></li>
-                    <li class="footer-item"><a class="footer-link" href="#gallery">Галерея</a></li>
-                    <li class="footer-item"><a class="footer-link" href="#feedbacks">Відгуки</a></li>
-                    <li class="footer-item"><a class="footer-link" href="#support">Контакти</a></li>
-                    </ul>
-            </nav>
-        
-        
-        <ul class="footer-social-list" aria-label="Список соціальних мереж">
-           
-            <li class="footer-social-item"><a class="footer-social-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><svg class="footer-icon" width="32" height="32">
-        <use href="/ecotote-proj/assets/icons-BgvcbJTL.svg#icon-Instagram"></use>
-            </svg></a></li>
-           <li class="footer-social-item"><a class="footer-social-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><svg class="footer-icon" width="32" height="32">
-        <use href="/ecotote-proj/assets/icons-BgvcbJTL.svg#icon-LinkedIn"></use>
-            </svg></a></li>
-            <li class="footer-social-item"><a class="footer-social-link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><svg class="footer-icon" width="32" height="32">
-        <use href="/ecotote-proj/assets/icons-BgvcbJTL.svg#icon-Youtube"></use>
-            </svg></a></li>
-        
+    <footer id="footer" class="footer" aria-label="Підвал сайту">
+  <div class="container footer-container">
+    <div class="footer-top">
+      <a
+        class="footer-logo"
+        href="./index.html"
+        aria-label="Посилання на головну сторінку сайту"
+      >
+        <img
+          class="footer-logo-img"
+          src="/ecotote-proj/assets/logo-footer-Dhl62575.svg"
+          alt="Логотип EcoTote"
+        />
+      </a>
+      <nav aria-label="Навігація по сайту">
+        <ul class="footer-nav">
+          <li class="footer-item">
+            <a class="footer-link" href="#about">Про нас</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="#advantages">Переваги</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="#assortment">Асортимент</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="#gallery">Галерея</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="#feedbacks">Відгуки</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="#support">Контакти</a>
+          </li>
         </ul>
-         </div>
-    
+      </nav>
 
-<address class="footer-address" aria-label="Контактна інформація">
-    <ul class="footer-address-list">
-        
-        <li class="footer-address-item"><a class="footer-address-link" href="tel:+380999091122">+38 (099) 909 11 22</a></li>
-        <li class="footer-address-item"><a class="footer-address-link" href="mailto:hello@ecotote.com">hello@ecotote.com</a></li>
-    </ul>
-</address>
+      <ul class="footer-social-list" aria-label="Список соціальних мереж">
+        <li class="footer-social-item">
+          <a
+            class="footer-social-link"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><svg class="footer-icon" width="32" height="32">
+              <use href="/ecotote-proj/assets/icons-BgvcbJTL.svg#icon-Instagram"></use></svg
+          ></a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            class="footer-social-link"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><svg class="footer-icon" width="32" height="32">
+              <use href="/ecotote-proj/assets/icons-BgvcbJTL.svg#icon-LinkedIn"></use></svg
+          ></a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            class="footer-social-link"
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><svg class="footer-icon" width="32" height="32">
+              <use href="/ecotote-proj/assets/icons-BgvcbJTL.svg#icon-Youtube"></use></svg
+          ></a>
+        </li>
+      </ul>
+    </div>
 
-<p class="footer-copy" aria-label="Авторські права">
-  &copy; 2025 EcoTote. Всі права захищені.
-</p>
+    <address class="footer-address" aria-label="Контактна інформація">
+      <ul class="footer-address-list">
+        <li class="footer-address-item">
+          <a class="footer-address-link" href="tel:+380999091122"
+            >+38 (099) 909 11 22</a
+          >
+        </li>
+        <li class="footer-address-item">
+          <a class="footer-address-link" href="mailto:hello@ecotote.com"
+            >hello@ecotote.com</a
+          >
+        </li>
+      </ul>
+    </address>
 
-</div>
-
+    <p class="footer-copy" aria-label="Авторські права">
+      &copy; 2025 EcoTote. Всі права захищені.
+    </p>
+  </div>
 </footer>
 
 
