@@ -19,7 +19,8 @@ color: var(--color-scheme-1-text);
 margin: 0 auto 32px 0;
 }
 
-.support-input-field {margin-bottom: 24px;}
+.support-input-field {margin-bottom: 24px;
+position: relative;}
 
 .support-label {
 display: inline-block;
@@ -33,6 +34,7 @@ border: 1px solid var(--opacity-neutral-darkest-15);
 border-radius: 6px;
 background: var(--opacity-neutral-darkest-5);
 color: var(--color-scheme-2-text);
+transition: border 10аше 0ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input {
@@ -60,6 +62,7 @@ color: var(--color-error-red);
   padding-left: 20px;
   margin-top: 4px;
   display: none;
+  position:absolute;
 }
 
 .text-invalid {
